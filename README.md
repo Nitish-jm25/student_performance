@@ -35,15 +35,14 @@ The difference between the **actual and expected score** is used to identify per
 
 ## 📁 Project Structure
 
+```text
 StudentIQ/
 ├── app.py
 ├── requirements.txt
 ├── runtime.txt
 ├── README.md
 └── student.csv
-
-##⚙️ Run Locally
-
+⚙️ Run Locally
 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/studentiq.git
 cd studentiq
@@ -54,7 +53,7 @@ python -m streamlit run app.py
 
 Open http://localhost:8501 in your browser.
 
-## 📊 How It Works
+📊 How It Works
 Upload Student Data
         ↓
 Data Preprocessing
@@ -68,8 +67,7 @@ Risk & Support Identification
 Insights & Recommendations
         ↓
 Excel Report
-
-##🎯 Use Case
+🎯 Use Case
 
 StudentIQ is designed for teachers, academic mentors, and educational institutions to quickly understand student performance and identify learners who may benefit from additional academic support.
 
